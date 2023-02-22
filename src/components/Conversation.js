@@ -144,7 +144,7 @@ const Conversation = (props) => {
       <ChatBox>
         <SearcContainer>
         
-          <EmojiImage src="/src/public/data.svg" />
+          <EmojiImage src="dist/public/data.svg" />
           <SearchInput
             placeholder="Type a message"
             value={text}
@@ -152,7 +152,7 @@ const Conversation = (props) => {
             onChange={(e) => setText(e.target.value)}
           />
           <SendButton onClick={sendMessage}>
-            <img src="/src/public/send-button.png" alt="" />
+            <img src="dist/public/send-button.png" alt="" />
           </SendButton>
         </SearcContainer>
       </ChatBox>
